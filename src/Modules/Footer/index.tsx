@@ -1,6 +1,6 @@
 import React from "react";
 import usa from "../../assets/usa.png";
-import gpay from "../../assets/GPay.png";
+import gpay from "../../assets/gpay.png";
 import red from "../../assets/red.png";
 import pay from "../../assets/pay.png";
 import amex from "../../assets/amex.png";

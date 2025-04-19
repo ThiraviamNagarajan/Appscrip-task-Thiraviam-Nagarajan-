@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../../assets/logo.png";
 import heart from "../../assets/heartnav.png";
 import search from "../../assets/search-normal.png";
 import profile from "../../assets/profile.png";
@@ -40,7 +39,7 @@ const Nav = () => {
             &#9776;
           </div>
 
-          <img src={logo} alt="Logo" className="logo" />
+          <img src="/logo.png" alt="Logo" className="logo" />
           <h1>LOGO</h1>
 
           <div className="header-icons">

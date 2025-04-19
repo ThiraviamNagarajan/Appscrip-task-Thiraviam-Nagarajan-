@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import heartfill from "../../assets/heartfill.png";
-import heart from "../../assets/heartnav.png";
+import  { useEffect,  useState } from "react";
+
 
 interface Product {
   id: number;
@@ -144,9 +143,9 @@ function ProductList({ filter }: any) {
                   style={{ textAlign: "end" }}
                 >
                   {isFavourite && product.id === isFavouriteID ? (
-                    <img src={heartfill} width={12} height={12} />
+                    <img src="/heartfill.png" width={12} height={12} />
                   ) : (
-                    <img src={heart} width={12} height={12} />
+                    <img src="/heartnav.png" width={12} height={12} />
                   )}
                 </div>
               </div>

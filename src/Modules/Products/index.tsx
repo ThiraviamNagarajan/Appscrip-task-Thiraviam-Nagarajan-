@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Filter from "../SideNav";
 import ProductList from "../ProductList";
 import Dropdown from "../../Components/DropDown";

@@ -1,11 +1,4 @@
-import React from "react";
-import usa from "../../assets/usa.png";
-import gpay from "../../assets/gpay.png";
-import red from "../../assets/red.png";
-import pay from "../../assets/pay.png";
-import amex from "../../assets/amex.png";
-import applePay from "../../assets/applePay.png";
-import paytm from "../../assets/pay1.png";
+
 import CustomInput from "../../Components/Input.";
 import CustomButton from "../../Components/Button";
 import "./index.css"
@@ -46,7 +39,7 @@ const Footer = () => {
           >
             <img
               style={{ marginRight: "5px" }}
-              src={usa}
+              src="/usa.png"
               className="usa"
               alt="dollar"
             />
@@ -96,12 +89,12 @@ const Footer = () => {
           <h4>FOLLOW US</h4>
           <p>mettā muse ACCEPTS</p>
           <div className="payments">
-            <img className="img-pay" src={gpay} alt="GPay" />
-            <img className="img-pay" src={red} alt="Mastercard" />
-            <img className="img-pay" src={pay} alt="PayPal" />
-            <img className="img-pay" src={amex} alt="Amex" />
-            <img className="img-pay" src={applePay} alt="Apple Pay" />
-            <img className="img-pay" src={paytm} alt="Paytm" />
+            <img className="img-pay" src="/gpay.png" alt="GPay" />
+            <img className="img-pay" src="/red.png" alt="Mastercard" />
+            <img className="img-pay" src="/pay.png" alt="PayPal" />
+            <img className="img-pay" src="/amex.png" alt="Amex" />
+            <img className="img-pay" src="/applePay.png" alt="Apple Pay" />
+            <img className="img-pay" src="/pay1.png" alt="Paytm" />
           </div>
         </div>
       </div>

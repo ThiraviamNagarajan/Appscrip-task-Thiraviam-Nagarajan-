@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import heart from "../../assets/heartnav.png";
-import search from "../../assets/search-normal.png";
-import profile from "../../assets/profile.png";
-import shopping from "../../assets/shopping-bag.png";
-import element from "../../assets/element-4.png";
+import  { useState } from "react";
+
 import "./index.css"
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,21 +9,21 @@ const Nav = () => {
       <div className="top-bar">
         <div className="test">
           <span>
-            <img src={element} alt="element " className="nav-hicons" />
+            <img src="/element-4.png" alt="element " className="nav-hicons" />
           </span>{" "}
           Lorem ipsum dolor
         </div>
         <div>
           <span>
             {" "}
-            <img src={element} alt="element " className="nav-hicons" />
+            <img src="/element-4.png" alt="element " className="nav-hicons" />
           </span>{" "}
           Lorem ipsum dolor
         </div>
         <div className="test">
           <span>
             {" "}
-            <img src={element} alt="element " className="nav-hicons" />
+            <img src="/element-4.png" alt="element " className="nav-hicons" />
           </span>{" "}
           Lorem ipsum dolor
         </div>
@@ -44,16 +40,16 @@ const Nav = () => {
 
           <div className="header-icons">
             <i>
-              <img src={search} alt="search" className="nav-icons" />
+              <img src="/search-normal.png" alt="search" className="nav-icons" />
             </i>
             <i>
-              <img src={heart} alt="heart" className="nav-icons" />
+              <img src="/heartnav.png" alt="heart" className="nav-icons" />
             </i>
             <i>
-              <img src={shopping} alt="shopping" className="nav-icons" />
+              <img src="/shopping-bag.png"alt="shopping" className="nav-icons" />
             </i>
             <i>
-              <img src={profile} alt="profile" className="nav-icons" />
+              <img src="/profile.png"alt="profile" className="nav-icons" />
             </i>
             <span className="lang">ENG ▾</span>
           </div>

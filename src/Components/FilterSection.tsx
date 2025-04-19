@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import arrowdown from "../assets/arrowdown.png"
-import arrowup from "../assets/arrow-left.png"
+
 
 interface FilterSectionProps {
   title: string;
@@ -43,7 +42,7 @@ const FilterSection: React.FC<FilterSectionProps> = ({ title, options, selected,
             {renderSelectedSummary()}
           </div>
         </div>
-        <span style={{ fontSize: '14px' }}>{isOpen ? <img src={arrowup} width={12} height={12}/> : <img src={arrowdown} width={12} height={12}/>}</span>
+        <span style={{ fontSize: '14px' }}>{isOpen ? <img src="/arrow-left.png" width={12} height={12}/> : <img src="/arrowdown.png" width={12} height={12}/>}</span>
       </div>
 
       {isOpen && (

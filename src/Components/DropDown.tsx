@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import downarrow from "../assets/arrowdown.png";
-import tick from "../assets/material-symbols_check-small-rounded.png";
+import  { useState } from "react";
 
 interface DropdownProps {
   label: string;
@@ -39,7 +37,7 @@ function Dropdown({ label, options, onSelect }: DropdownProps) {
             {label}
           </div>
           <div style={{ fontSize: "10px" }}>
-            <img src={downarrow} width={16} height={16} />
+            <img src="/arrowdown.png" width={16} height={16} />
           </div>
         </div>
       </button>
@@ -80,7 +78,7 @@ function Dropdown({ label, options, onSelect }: DropdownProps) {
                 <div style={{marginTop:"3px"}}>
                   {" "}
                   {hoveredOption === option ? (
-                    <img src={tick} width={12} height={12} />
+                    <img src="/material-symbols_check-small-rounded.png" width={12} height={12} />
                   ) : (
                     ""
                   )}

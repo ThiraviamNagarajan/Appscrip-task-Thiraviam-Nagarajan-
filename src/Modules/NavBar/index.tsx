@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import logo from "../../assets/logo.png";
-import heart from "../../assets/heartnav.png";
-import search from "../../assets/search-normal.png";
-import profile from "../../assets/profile.png";
-import shopping from "../../assets/shopping-bag.png";
-import element from "../../assets/element-4.png";
+import logo from "../assets/Logo.png";
+import heart from "../assets/heartnav.png";
+import search from "../assets/search-normal.png";
+import profile from "../assets/profile.png";
+import shopping from "../assets/shopping-bag.png";
+import element from "../assets/element-4.png";
 import "./index.css"
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);

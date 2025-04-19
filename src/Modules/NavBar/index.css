@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    background-color: #000;
+    color: #e05577;
+    text-align: center;
+    padding: 5px 200px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .nav-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 100px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0px;
+  }
+  
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  
+  h1 {
+    font-size: 34px;
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  i {
+    text-decoration: none;
+    height: 24px;
+    height: 24px;
+  }
+  
+  .lang {
+    font-size: 14px;
+  }
+  .nav-hicons {
+    height: 12px;
+    width: 12px;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-menu {
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .nav-icons {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      display: none;
+      font-size: 14px;
+    }
+  
+    .nav.show ul {
+      display: flex;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  
+    .header-icons .lang {
+      display: none;
+    }
+  
+    .nav-header {
+      padding: 20px 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+      font-weight: 800;
+    }
+    .logo {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+    }
+    .nav-icons {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  @media (max-width: 978px) {
+    .test {
+      display: none;
+    }
+    .top-bar {
+      justify-content: center;
+      padding: 5px 10px;
+    }
+  }

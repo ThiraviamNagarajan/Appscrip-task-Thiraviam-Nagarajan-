@@ -1,0 +1,153 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  .footer {
+    background: #000;
+    color: #fff;
+    padding: 2rem 15rem;
+  }
+  
+  .footer-top-grid {
+    display: grid;
+  }
+  .grid-template-columns {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .footer-bottom-grid {
+    display: grid;
+  
+    margin-top: 2rem;
+  }
+  
+  .subscribe,
+  .contact,
+  .grid-section {
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  .input-group button {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .grid-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grid-section ul li {
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .payments img {
+    height: 30px;
+    margin: 10px 10px 0 0;
+  }
+  
+  hr {
+    border: 1px solid #222;
+    margin: 2rem 0;
+  }
+  .header {
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: clamp(20px, 4vw, 40px) clamp(10px, 25vw, 400px);
+  }
+  .header h1 {
+    font-size: clamp(24px, 5vw, 50px);
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: clamp(16px, 3vw, 22px);
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 1025px) {
+    .footer-top-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10rem;
+    }
+    .grid-section-head {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-bottom-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 10rem;
+    }
+  }
+  .usa {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer-top-grid,
+    .footer-bottom-grid,
+    .grid-template-columns {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .footer {
+      padding: 2rem 0.5rem;
+    }
+    .header {
+      padding: 20px 100px;
+    }
+  }
+  
+  .footer h3,
+  .footer h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+  
+  .footer .copyright {
+    text-align: center;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    margin-top: 2rem;
+  }
+  .grid-section-head {
+    display: grid;
+    gap: 2rem;
+  
+    grid-template-columns: 1fr;
+  
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 600px) {
+    .header {
+      padding: 20px 10px;
+    }
+  }
